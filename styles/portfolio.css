@@ -1,0 +1,109 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+.open-sans-font {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* common styles  */
+.primary-colour {
+    color: rgb(253, 110, 10);
+}
+
+.dark-2 {
+    color: rgb(71, 71, 71);
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    padding: 18px 36px;
+    border: none;
+}
+
+/* nav stye  */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+/* header style  */
+.header {
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
+
+/* banner styles  */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content {
+    width: 585px;
+    margin: 0 35px 0 200px;
+}
+
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.banner-title {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0;
+}
+
+.banner-description {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner-profile-pic {
+    width: 584px;
+}
